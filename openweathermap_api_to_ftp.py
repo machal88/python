@@ -10,7 +10,6 @@ app = Flask(__name__)
 @app.route('/')
 def index():
     # Pobranie danych z API OpenWeatherMap
-    #api_key = 'YOUR_API_KEY'
     url = "https://api.openweathermap.org/data/2.5/weather?q=London,pl&appid={your_api_key}&units=metric"
     response = requests.get(url)
     data = response.json()
