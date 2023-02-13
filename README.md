@@ -1,1 +1,1 @@
-Flask app to get from openweathermap api keys like temperatur, humidity etc and send it to ftp server -> index.html
+Flask app to get data from openweathermap api, keys like temperature, humidity etc and then send them to ftp server -> index.html
